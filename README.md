@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Event Registration System
 
 A REST API built with **Express.js** and **SQLite** for managing events, users, and event registrations.
@@ -56,3 +57,6 @@ curl -X DELETE http://localhost:3000/api/registrations/1 -H 'X-User-Id: 2'
 - `registrations`: join table linking users and events, with a unique `(user_id, event_id)` constraint to prevent duplicates.
 
 SQLite foreign keys, indexes, input validation, capacity checks, and useful HTTP errors are enabled. A demo user and two demo events are seeded on first start.
+=======
+# Event-Registration
+>>>>>>> 198be397dc79569057a2ddf3029f7923b6ce1e6a
